@@ -1,0 +1,6 @@
+Paracetamol  500
+Ibuprofen 300
+Amoxicillin 150
+Multivitamin 250
+Aspirin 150
+Antacid 300
