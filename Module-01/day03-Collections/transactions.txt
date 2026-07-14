@@ -1,0 +1,8 @@
+Almaz, 200
+Zara, 5000
+Beti, 30
+Abebe, 1873
+Zara, 429
+Dagim, 94
+Teddy, 603
+Almaz, 780
