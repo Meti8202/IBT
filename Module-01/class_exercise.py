@@ -28,11 +28,14 @@ getOnlyEvens([22, 26, 34, 67, 80, 11, 34, 64, 99, 32, 48, 71, 65])
 #      ○ Test 2: reverseCompare(23) prints "Not ok", because 23 is not greater than 32
 # ? Requirements: 2 digit input, input > reversed version = "ok" and if input < reversed = "not okay"
 def reverseCompare(num):
-      
-     if number > reverse:
-          print("OK")
+     first_digit = num // 10 
+     second_digit = num % 2 
+     for reversed_number:
+          return 
+     if num > reversed_number:
+          print("Ok")
      else:
-          print("not ok")
+          print("Not ok")
 
 
 # !Question 3
@@ -41,7 +44,7 @@ def reverseCompare(num):
 #     ○ Test 2: returnFactorial(6) outputs 720
 #     ○ Test 3: returnFactorial(0) outputs 1
 
-def returnFactorial(): ...
+def returnFactorial(x): ...
 
 
 # !Question 4 (Meera array)
@@ -50,12 +53,12 @@ def returnFactorial(): ...
 #       ○ Test 2: checkMeera([7, 4, 9]) outputs “I am a Meera array”
 #       ○ Test 1: checkMeera([1, -6, 4, -3]) outputs “I am NOT a Meera array” because -3 *2 is -6 
 
-def checkMeera(): ...
+def checkMeera(arr): ...
 
 # !Question 5 (Dual array)
 # * Define a Dual array to be an array where every number occurs exactly twice. For example, {1, 2, 1, 3, 3, 2} is a dual array.The following arrays are not Dual arrays {2, 5, 2, 5, 5} (5 occurs three times instead of two times) {3, 1, 1, 2, 2} (3 occurs once instead of two times) Write a function named isDual that returns 1 if its array argument is a Dual array. Otherwise it returns 0.
 
-def isDual(): ...
+def isDual(arr): ...
 
 # !Question 6
 # * Write a function that takes the number of seconds and returns the digital format clock time as a string. Time should be counted from 00:00:00.
